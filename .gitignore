@@ -1,0 +1,121 @@
+.venv/
+__pycache__/
+*.pyc
+
+.env
+
+data/raw/
+data/processed/
+data/parquet/
+
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets and generated data
+data/raw/*
+data/processed/*
+data/parquet/*
+*.csv
+*.csv.gz
+*.parquet
+*.jsonl
+*.feather
+*.h5
+*.hdf5
+
+# Keep empty data directories
+!data/raw/.gitkeep
+!data/sample/.gitkeep
+!data/processed/.gitkeep
+!data/parquet/.gitkeep
+!data/parquet/silver/.gitkeep
+!data/parquet/gold/.gitkeep
+
+# ML artifacts
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.keras
+models/*.pth
+models/*.pt
+models/*.onnx
+
+# Spark / Hadoop
+.sparkStaging/
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+
+# PostgreSQL / local DB
+*.sql.bak
+*.dump
+*.backup
+*.sqlite
+*.sqlite3
+
+# Node / React / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / temporary files
+*.log
+logs/
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+.cache/
+tmp/
+temp/

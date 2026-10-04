@@ -1,0 +1,23 @@
+{
+    "step": "11F",
+    "method": "Refined Temporal GridGuard Detector",
+    "min_std": 0.1,
+    "std_floor_factor": 0.25,
+    "z_clip": 6.0,
+    "historical_z_threshold": 3.0,
+    "rolling_z_threshold": 3.0,
+    "seasonal_z_threshold": 4.0,
+    "relative_threshold": 1.0,
+    "peer_z_threshold": 3.0,
+    "low_activity_quantile": 0.1,
+    "isolation_forest_estimators": 250,
+    "isolation_forest_contamination": 0.01,
+    "random_state": 42,
+    "training_threshold_quantile": 0.995,
+    "persistence_window": 3,
+    "contextual_weight": 0.75,
+    "isolation_forest_weight": 0.25,
+    "contextual_threshold": 0.5930044581452194,
+    "if_threshold": 0.7914848179674712,
+    "ensemble_threshold": 0.6420755967962333
+}
